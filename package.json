@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/GonzaloArielRossi/gonzalorossi",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-    "css-watch": "npm run css-build -- --watch",
-    "deploy": "gh-pages -d dist"
+    "css-watch": "npm run css-build -- --watch"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
