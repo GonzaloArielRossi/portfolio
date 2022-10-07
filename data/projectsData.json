@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Natours",
-    "gif": "../../src/assets/images/natoursdemo.gif",
+    "gif": "../../assets/images/natoursdemo.gif",
     "alt": "natours app screenshot",
     "description": "Robust RESTful API with JWT, file uploads, emails, Stripe payments, Mapbox, route protection, roles, permissions, security, encryption, geospatial queries, pagination, filters, sorts and more. It also has a front-end created with Pug.",
     "techStack": ["NodeJs", "Express", "MongoDB", "Mongoose", "JWT", "Pug"],
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Sample Bucket",
-    "gif": "../../src/assets/images/samplebucketdemo.gif",
+    "gif": "../../assets/images/samplebucketdemo.gif",
     "alt": "sample bucket app screenshot",
     "description": "Front-end project. Fully featured e-commerce with user authentication, Google Sign-In, product categories, audio previews with playable drum pads, shopping cart and stock control.",
     "techStack": ["ReactJS", "Firebase", "CSS", "Javascript", "HTML"],
