@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+$my-dark-color: #22212c;
+
+$my-link-color: #6e07f3;
+$my-white: #f3f3f3;
+$my-black: #414141;
+$dark: $my-black;
+$primary: $my-link-color;
+$black: $my-black;
+$navbar-item-color: $my-black;
+$link: $my-black;
+$navbar-item-hover-background-color: $primary;
+$navbar-item-hover-color: $primary;
+$link-hover: $primary;
+$column-gap: 4rem;
+$modal-card-head-background-color: $my-white;
+$modal-card-title-color: $my-black;
+$modal-card-body-background-color: $my-white;
+
+@import url('http://fonts.cdnfonts.com/css/eurostile');
+$family-sans-serif: 'Eurostile', sans-serif;
+
+@import '../node_modules/bulma/bulma.sass';
