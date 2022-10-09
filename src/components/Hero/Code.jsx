@@ -7,7 +7,7 @@ function Code() {
   return (
     <div className="box code-background is-flex is-flex-direction-column has-text-white --code-about-me">
       {/* Title Bar */}
-      <div className="is-flex mb-4 window-title-text-size">
+      <div className="is-flex mb-4 window-title-text-size" id="code">
         <div className="gg-windows-control">
           <BsCircleFill className="code-close is-size-" />
           <BsCircleFill className="code-minimize ml-2" />
