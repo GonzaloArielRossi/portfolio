@@ -58,7 +58,7 @@ function ContactForm() {
 
   return (
     <div className="">
-      <h1 className="title is-size-2 has-text-centered mt-6 mb-6">
+      <h1 className="title is-size-2 has-text-centered mt-6 mb-6 px-6">
         Thanks for reaching out!
       </h1>
       <form ref={form} className="mt-6 mb-6 --width" onSubmit={sendEmail}>

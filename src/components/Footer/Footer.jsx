@@ -32,9 +32,9 @@ function Footer() {
             </a>
           </div>
 
-          <div className="is-flex mb-4 ">
+          <div className="is-flex mb-4 is-align-items-center">
             <a
-              className="is-flex is-align-items-center ml-6 --hover"
+              className="is-flex is-align-items-center --hover"
               href="https://www.linkedin.com/in/gonzaloarossi/"
               rel="noreferrer"
               target="_blank"
