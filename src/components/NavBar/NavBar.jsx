@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BsTerminal } from 'react-icons/bs';
-import './NavBar.css';
 import { NavLink, useLocation } from 'react-router-dom';
 export const NavBar = () => {
   const location = useLocation().pathname;
