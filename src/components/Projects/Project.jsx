@@ -10,7 +10,16 @@ export const Project = (props) => {
           {props.name}
         </div>
         <div className="columns is-8 is-vcentered ">
-          {props.id % 2 === 0 && (
+          {isMobile && (
+            <figure className="image column is-two-thirds">
+              <img
+                alt={props.alt}
+                className="--shadow --image"
+                src={props.gif}
+              />
+            </figure>
+          )}
+          {!isMobile && props.id % 2 === 0 && (
             <figure className="image column is-two-thirds">
               <img
                 alt={props.alt}
@@ -55,7 +64,7 @@ export const Project = (props) => {
               )}
             </div>
           </div>
-          {props.id % 2 !== 0 && (
+          {!isMobile && props.id % 2 !== 0 && (
             <figure className="image column is-two-thirds">
               <img
                 alt={props.alt}
