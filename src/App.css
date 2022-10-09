@@ -3,15 +3,22 @@
   transition: all 0.1s ease-in-out;
 }
 
+.--hover-color:hover {
+  color: #6e07f3;
+}
+
 .--flex-gap-0 {
   gap: 0.1rem;
 }
 .--flex-gap-1 {
   gap: 1rem;
 }
-
 .--flex-gap-2 {
   gap: 2rem;
+}
+
+.--flex-basis {
+  flex-basis: auto !important;
 }
 
 .--item-gap {
@@ -31,4 +38,58 @@
 
 .--padding {
   padding: 1rem 2rem;
+}
+
+/* CODE STYLING */
+.--code-about-me {
+  font-family: 'Hack', sans-serif;
+}
+
+.window-title-text-size {
+  font-size: 0.9rem;
+}
+.window-text-size {
+  font-size: 1.05rem;
+  gap: 0.5rem;
+}
+.code-variable {
+  color: #8af15c;
+}
+.code-text {
+  color: #47dcea;
+}
+.code-reserved {
+  color: #ef86c0;
+}
+.code-string {
+  color: #ffff80;
+}
+.code-number {
+  color: #8a80ff;
+}
+.code-line-number {
+  color: #999995;
+}
+.code-symbol {
+  color: #f8f8f2;
+}
+.code-background {
+  background-color: #22212c !important;
+}
+.code-close {
+  color: #ff5f56;
+}
+.code-minimize {
+  color: #ffbd2e;
+}
+.code-maximize {
+  color: #27c93f;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 747px) {
+  #code {
+    font-size: 0.5rem !important;
+  }
 }

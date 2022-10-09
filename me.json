@@ -1,9 +1,0 @@
-{
-  "fullName": "Gonzalo Ariel Rossi",
-  "age": 29,
-  "location": "Buenos Aires, Argentina",
-  "profession": "Full Stack Developer",
-  "stack": "MERN",
-  "mainSkills": ["NodeJS", "Express", "ReactJS", "MongoDB", "REST API"],
-  "otherSkills": ["SQL", "C#", "Python", "PHP"]
-}

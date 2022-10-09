@@ -10,7 +10,6 @@ export const formVerification = (name, email, message) => {
   }
 
   if (!re.test(email)) {
-    console.log('MAIL NOT VALID');
     return false;
   }
 

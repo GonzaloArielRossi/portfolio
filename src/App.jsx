@@ -7,6 +7,7 @@ import { Hero } from './components/Hero/Hero';
 import Footer from './components/Footer/Footer';
 import '../css/mystyles.css';
 import ContactForm from './components/ContactForm/ContactForm';
+import Cta from './components/Cta/Cta';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <NavBar />
             <Hero />
             <Projects />
+            <Cta />
           </div>
           <Footer />
         </Route>

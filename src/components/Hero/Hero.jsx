@@ -1,12 +1,13 @@
 import React from 'react';
 
-import aboutMe from '../../../src/assets/images/aboutme.svg';
+import Code from './Code';
+
 export const Hero = () => {
   return (
     <section className="--section-gap --padding">
-      <figure className="image">
-        <img alt="about me" src={aboutMe} />
-      </figure>
+      <Code />
     </section>
   );
 };
+
+export default Code;

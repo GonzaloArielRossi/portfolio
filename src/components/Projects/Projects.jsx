@@ -7,8 +7,8 @@ import './Projects.css';
 export const Projects = () => {
   return (
     <>
-      <section className="section  --section-gap">
-        <h1 className="has-text-centered is-size-1 mb-6 is-size-1 has-text-weight-bold">
+      <section className="section">
+        <h1 className="has-text-centered is-size-1 mb-6 is-size-1 has-text-weight-bold  has-text-primary">
           My Projects
         </h1>
         <div>

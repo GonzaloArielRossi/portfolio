@@ -1,0 +1,19 @@
+.--cta-color {
+  background-color: #141c3a;
+}
+
+.--border {
+  border-radius: 25px;
+}
+
+.--cta-pading {
+  padding: 1rem;
+}
+
+.--pad-0 {
+  padding: 0;
+}
+
+.--cta-space {
+  margin-bottom: 6rem;
+}

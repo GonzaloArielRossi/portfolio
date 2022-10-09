@@ -8,15 +8,14 @@ export const Project = (props) => {
         <div className="has-text-centered has-text-weight-bold mb-6 is-size-2">
           {props.name}
         </div>
-        <div className="columns is-8 is-vcentered">
+        <div className="columns is-8 is-vcentered ">
           {props.id % 2 === 0 && (
-            <figure className="image column">
+            <figure className="image column is-two-thirds">
               <img
                 alt={props.alt}
                 className="--shadow --image"
                 src={props.gif}
               />
-              {/* <img className="--shadow --image" src={props.img} alt={props.alt} /> */}
             </figure>
           )}
           <div className="is-flex is-flex-direction-column --flex-gap-2 --project-info column is-one-half is-size-5">
@@ -41,20 +40,20 @@ export const Project = (props) => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <VscGithub className="" />
+                <VscGithub className="--hover --hover-color" />
               </a>
               <a
-                className="ml-6 is-size-2"
+                className="ml-6 is-size-2 "
                 href={props.deployLink}
                 rel="noreferrer"
                 target="_blank"
               >
-                <VscRocket className="" />
+                <VscRocket className="--hover --hover-color" />
               </a>
             </div>
           </div>
           {props.id % 2 !== 0 && (
-            <figure className="image column">
+            <figure className="image column is-two-thirds">
               <img
                 alt={props.alt}
                 className="--shadow --image"
