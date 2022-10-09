@@ -24,10 +24,14 @@ function Code() {
               {idx + 1}
             </div>
           ))}
+          <div className=" code-line-number --extra">24</div>
+          <div className=" code-line-number --extra">25</div>
+          <div className=" code-line-number --extra">26</div>
+          <div className=" code-line-number --extra">27</div>
         </div>
         {/* Code Lines */}
         <div className="ml-2">
-          <div className="">
+          <div>
             <span className="code-variable">console</span>
             <span>.</span>
             <span className="code-text">log</span>
@@ -43,30 +47,30 @@ function Code() {
             <span className="code-reserved">= </span>
             <span>{'{'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">fullName</span>
             <span>{': '}</span>
             <span className="code-string">{"'Gonzalo Ariel Rossi'"}</span>
             <span>{','}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">age</span>
             <span>{': '}</span>
             <span className="code-number">29</span>
             <span>{','}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">profession</span>
             <span>{': '}</span>
             <span className="code-string">{"'Full Stack Developer'"}</span>
             <span>{','}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">location</span>
             <span>{': '}</span>
             <span className="code-string">{"'Buenos Aires, Argentina'"}</span>
           </div>
-          <div className="">
+          <div>
             <span>{'};'}</span>
           </div>
           <div>
@@ -79,19 +83,19 @@ function Code() {
             <span className="code-reserved">= </span>
             <span>{'{'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">languages</span>
             <span>{': ['}</span>
             <span className="code-string">{"'HTML', 'Javascript'"}</span>
             <span>{'],'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">frameworks</span>
             <span>{': ['}</span>
             <span className="code-string">{"'ReactJS', 'Pug'"}</span>
             <span>{'],'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">styling</span>
             <span>{': ['}</span>
             <span className="code-string">
@@ -99,7 +103,7 @@ function Code() {
             </span>
             <span>{'],'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">designTools</span>
             <span>{': ['}</span>
             <span className="code-string">
@@ -107,7 +111,7 @@ function Code() {
             </span>
             <span>{']'}</span>
           </div>
-          <div className="">
+          <div>
             <span>{'};'}</span>
           </div>
           <div>{'\u00a0\u00a0'} </div>
@@ -117,7 +121,7 @@ function Code() {
             <span className="code-reserved">= </span>
             <span>{'{'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">languages</span>
             <span>{': ['}</span>
             <span className="code-string">
@@ -125,13 +129,13 @@ function Code() {
             </span>
             <span>{'],'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">frameworks</span>
             <span>{': ['}</span>
             <span className="code-string">{"'NodeJS', 'Express'"}</span>
             <span>{'],'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">databases</span>
             <span>{': ['}</span>
             <span className="code-string">
@@ -139,13 +143,13 @@ function Code() {
             </span>
             <span>{'],'}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">architecture</span>
             <span>{': '}</span>
             <span className="code-string">{" 'REST API'"}</span>
             <span>{','}</span>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 ">
             <span className="code-text">pattern</span>
             <span>{': '}</span>
             <span className="code-string">{" 'MVC'"}</span>

@@ -87,9 +87,15 @@
 }
 
 /* ADAPTIVE */
+.--extra {
+  display: none;
+}
 
-@media (max-width: 747px) {
+@media (max-width: 767px) {
   #code {
     font-size: 0.5rem !important;
+  }
+  .--extra {
+    display: block;
   }
 }
