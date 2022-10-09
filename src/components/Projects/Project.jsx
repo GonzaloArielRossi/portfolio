@@ -1,5 +1,6 @@
 import React from 'react';
 import { VscGithub, VscRocket } from 'react-icons/vsc';
+import { isMobile } from 'react-device-detect';
 
 export const Project = (props) => {
   return (
@@ -42,14 +43,16 @@ export const Project = (props) => {
               >
                 <VscGithub className="--hover --hover-color" />
               </a>
-              <a
-                className="ml-6 is-size-2 "
-                href={props.deployLink}
-                rel="noreferrer"
-                target="_blank"
-              >
-                <VscRocket className="--hover --hover-color" />
-              </a>
+              {!isMobile && (
+                <a
+                  className="ml-6 is-size-2 "
+                  href={props.deployLink}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <VscRocket className="--hover --hover-color" />
+                </a>
+              )}
             </div>
           </div>
           {props.id % 2 !== 0 && (
