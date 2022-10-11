@@ -18,16 +18,16 @@ export const NavBar = () => {
         className="navbar is-transparent is-spaced mt-5 mb-5"
         role="navigation"
       >
-        <div className="navbar-brand is-flex is-justify-content-center">
+        <div className="navbar-brand ">
           <NavLink
-            className="navbar-item  has-text-primary is-black  is-size-3 --hover"
+            className="navbar-item  has-text-primary is-black  is-size-3 --hover is-flex"
             to="/"
             onClick={closeBurgerMenu}
           >
-            <BsTerminal className="has-text-weight-medium " />
-            <div className="has-text-weight-bold ml-2 ">
-              {'GonzaloRossi.dev'}
-            </div>
+            <BsTerminal className="has-text-weight-medium is-align-self-flex-center" />
+            <span className="has-text-weight-bold is-align-self-flex-center ml-2">
+              GonzaloRossi.dev
+            </span>
           </NavLink>
           <a
             aria-expanded="false"
