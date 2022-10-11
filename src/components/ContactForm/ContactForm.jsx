@@ -62,45 +62,49 @@ function ContactForm() {
         Thanks for reaching out!
       </h1>
       <form ref={form} className="mt-6 mb-6 --width" onSubmit={sendEmail}>
-        <div className="columns mt-6">
-          <div className="field column --field-padding">
-            <label className="label">Name</label>
-            <div className="control">
-              <input
-                className="input"
-                maxLength={50}
-                name="name"
-                placeholder="Name"
-                required="required"
-                type="text"
-              />
+        <div className="is-flex is-flex-direction-column">
+          <div className="mt-6">
+            <div className="is-flex is-justify-content-space-evenly --flex-gap-2">
+              <div className="field is-flex-grow-1">
+                <label className="label">Name</label>
+                <div className="control">
+                  <input
+                    className="input"
+                    maxLength={50}
+                    name="name"
+                    placeholder="Name"
+                    required="required"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div className="field is-flex-grow-1">
+                <label className="label">Email</label>
+                <div className="control">
+                  <input
+                    className="input"
+                    maxLength={50}
+                    name="email"
+                    placeholder="Email"
+                    required="required"
+                    type="email"
+                  />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="field column --field-padding">
-            <label className="label">Email</label>
+          <div className="field pt-6 pb-4">
+            <label className="label">Message</label>
             <div className="control">
-              <input
-                className="input"
-                maxLength={50}
-                name="email"
-                placeholder="Email"
+              <textarea
+                className="textarea"
+                maxLength={500}
+                name="message"
+                placeholder="Message"
                 required="required"
-                type="email"
-              />
+                rows="8"
+              ></textarea>
             </div>
-          </div>
-        </div>
-        <div className="field pt-6">
-          <label className="label">Message</label>
-          <div className="control">
-            <textarea
-              className="textarea"
-              maxLength={500}
-              name="message"
-              placeholder="Message"
-              required="required"
-              rows="8"
-            ></textarea>
           </div>
         </div>
         <div className="control ml-auto is-flex is-justify-content-flex-end">
