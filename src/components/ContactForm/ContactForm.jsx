@@ -64,7 +64,7 @@ function ContactForm() {
       <form ref={form} className="mt-6 mb-6 --width" onSubmit={sendEmail}>
         <div className="is-flex is-flex-direction-column">
           <div className="mt-6">
-            <div className="is-flex is-justify-content-space-evenly --flex-gap-2">
+            <div className="is-flex is-justify-content-space-evenly --flex-gap-2 --change-flex-dir">
               <div className="field is-flex-grow-1">
                 <label className="label">Name</label>
                 <div className="control">

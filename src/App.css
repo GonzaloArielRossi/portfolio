@@ -87,6 +87,7 @@
 }
 
 /* ADAPTIVE */
+
 .--extra {
   display: none;
 }
@@ -97,5 +98,8 @@
   }
   .--extra {
     display: block;
+  }
+  .--change-flex-dir {
+    flex-direction: column;
   }
 }
