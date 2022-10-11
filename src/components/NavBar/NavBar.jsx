@@ -18,7 +18,7 @@ export const NavBar = () => {
         className="navbar is-transparent is-spaced mt-5 mb-5"
         role="navigation"
       >
-        <div className="navbar-brand ">
+        <div className="navbar-brand is-flex is-justify-content-center">
           <NavLink
             className="navbar-item  has-text-primary is-black  is-size-3 --hover"
             to="/"
