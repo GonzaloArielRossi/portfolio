@@ -15,6 +15,7 @@ $primary: $my-link-color;
 $black: $my-black;
 $navbar-item-color: $my-black;
 $link: $my-black;
+$alt: #52cfa9;
 $navbar-item-hover-background-color: $my-grey-2;
 $navbar-item-hover-color: $my-link-color-hover;
 $column-gap: 4rem;
@@ -22,5 +23,6 @@ $modal-card-head-background-color: $my-white;
 $modal-card-title-color: $my-black;
 $modal-card-body-background-color: $my-white;
 $family-sans-serif: 'Eurostile', sans-serif;
+$info: $alt;
 
 @import '../node_modules/bulma/bulma.sass';

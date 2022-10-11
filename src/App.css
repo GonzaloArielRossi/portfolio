@@ -10,7 +10,6 @@ body {
 .--hover-color:hover {
   color: #6e07f3;
 }
-
 .--flex-gap-0 {
   gap: 0.1rem;
 }

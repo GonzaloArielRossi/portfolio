@@ -1,10 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Cta.css';
+import { isMobile } from 'react-device-detect';
+
 function Cta() {
   return (
     <div className="section --cta-space">
-      <div className="box columns --cta-color has-text-light --border ml-0 mr-0 mt-0 mb-0 --pad-0">
+      <div
+        className={
+          isMobile
+            ? 'box columns --cta-color has-text-light --border ml-0 mr-0 mt-0 mb-0'
+            : 'box columns --cta-color has-text-light --border ml-0 mr-0 mt-0 mb-0 --pad-0'
+        }
+      >
         <div className="column has-text-weight-bold has-text-centered is-size-3 --cta-pading mt-6 mb-6">
           Contact Me
         </div>
@@ -13,7 +21,7 @@ function Cta() {
         </div>
         <div className="column has-text-centered --cta-pading mt-6 mb-6">
           <Link to="/contact">
-            <button className="button is-primary has-text-weight-bold is-size-5 --border --hover">
+            <button className="button is-outlined is-info has-text-weight-bold is-size-5 --border --hover">
               👉 Send me a message
             </button>
           </Link>
