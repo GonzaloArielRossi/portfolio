@@ -5,3 +5,7 @@
   padding-left: 5rem;
   padding-right: 5rem;
 }
+
+.--field-padding {
+  padding: 1rem !important;
+}

@@ -63,7 +63,7 @@ function ContactForm() {
       </h1>
       <form ref={form} className="mt-6 mb-6 --width" onSubmit={sendEmail}>
         <div className="columns mt-6">
-          <div className="field column">
+          <div className="field column --field-padding">
             <label className="label">Name</label>
             <div className="control">
               <input
@@ -76,7 +76,7 @@ function ContactForm() {
               />
             </div>
           </div>
-          <div className="field column">
+          <div className="field column --field-padding">
             <label className="label">Email</label>
             <div className="control">
               <input
@@ -90,7 +90,7 @@ function ContactForm() {
             </div>
           </div>
         </div>
-        <div className="field">
+        <div className="field pt-6">
           <label className="label">Message</label>
           <div className="control">
             <textarea
@@ -111,7 +111,7 @@ function ContactForm() {
                 : 'button is-primary is-rounded has-text-weight-bold --hover is-size-5'
             }
           >
-            Submit
+            Send
           </button>
         </div>
       </form>

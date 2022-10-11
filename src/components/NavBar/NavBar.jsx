@@ -74,6 +74,19 @@ export const NavBar = () => {
             >
               GitHub
             </a>
+            <a
+              className={
+                burgerMenu
+                  ? 'navbar-item is-size-4 has-text-weight-semibold'
+                  : 'navbar-item is-size-4 has-text-weight-semibold --hover'
+              }
+              href="https://drive.google.com/drive/folders/1MXFZg05g-UEF0YpCZdSTaoYyD4DwyigN?usp=sharing"
+              rel="noreferrer"
+              target="_blank"
+              onClick={closeBurgerMenu}
+            >
+              CV
+            </a>
             {location === '/' && (
               <div className={burgerMenu ? '' : 'navbar-item'}>
                 <NavLink
