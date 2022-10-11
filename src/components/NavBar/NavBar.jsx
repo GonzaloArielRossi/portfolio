@@ -20,12 +20,12 @@ export const NavBar = () => {
       >
         <div className="navbar-brand ">
           <NavLink
-            className="navbar-item  has-text-primary is-black  is-size-3 --hover is-flex"
+            className="navbar-item  has-text-primary is-black  is-size-3 --hover"
             to="/"
             onClick={closeBurgerMenu}
           >
-            <BsTerminal className="has-text-weight-medium is-align-self-flex-center" />
-            <span className="has-text-weight-bold is-align-self-flex-center ml-2">
+            <BsTerminal className="has-text-weight-medium is-align-self-center" />
+            <span className="has-text-weight-bold is-align-self-center ml-2">
               GonzaloRossi.dev
             </span>
           </NavLink>
