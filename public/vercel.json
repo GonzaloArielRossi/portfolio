@@ -2,7 +2,7 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "routes": [
     { "src": "/", "dest": "/", "status": 301 },
-    { "src": "/contact", "dest": "/contact", "status": 301 },
+    { "src": "/", "dest": "/contact", "status": 301 },
     { "src": "/[^.]+", "dest": "/", "status": 301 }
   ]
 }
