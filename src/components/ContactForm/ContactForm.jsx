@@ -125,11 +125,6 @@ function ContactForm() {
           <div className="modal-card ">
             <header className="modal-card-head has-text-centered ">
               <p className="modal-card-title is-size-3">{modal.title}</p>
-              <button
-                aria-label="close"
-                className="delete"
-                onClick={() => setModal({ ...modal, state: false })}
-              ></button>
             </header>
             <section className="modal-card-body has-text-centered is-size-5">
               <p>{modal.line1}</p>
